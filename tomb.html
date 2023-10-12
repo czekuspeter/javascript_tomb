@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tomb-1.css">
+    <script src="tombb.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="egy">
+    <p id="szoveg"> </p>
+
+   <button onclick="elso()">Első elem (0. index)</button>
+   <button onclick="masodik()">Második elem (1. index)</button>
+   <button onclick="harmadik()">Harmadik elem (2. index)</button>
+   </div>
+   <div class="ketto">
+    <p id="szoveg2"></p>
+    <button onclick="osszes()">Összes elem</button>
+    </div>
+
+    <div class="harom">
+        <label for="uj">Új elem:</label>
+  <input type="text" id="uj" name="uj">
+  <button onclick="hozzaad()">Add hozzá!</button>
+    </div>
+    
+    <div class="negy">
+        <p id="szoveg3"></p>
+        <button onclick="tombhossza()">Tömb hossza</button>
+    </div>
+ <div class="ot">
+        <label for="torol">Törendő elem indexe:</label>
+        <input type="number" id="torol" name="torol">
+        <button onclick="torol()">Töröld ki!</button>
+    </div>
+</body>
+</html>
